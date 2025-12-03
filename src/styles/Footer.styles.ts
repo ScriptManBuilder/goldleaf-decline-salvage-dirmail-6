@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
-  background: linear-gradient(180deg, #0a2540 0%, #0d1821 100%);
+  background: linear-gradient(180deg, #4C1D95 0%, #3B0764 100%);
   color: #e3e8ef;
   padding: 5rem 3rem 2rem;
   position: relative;
@@ -13,7 +13,7 @@ export const FooterContainer = styled.footer`
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(0, 102, 204, 0.5), transparent);
+    background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.5), transparent);
   }
 
   @media (max-width: 1024px) {
@@ -95,7 +95,7 @@ export const FooterLogo = styled.div`
     width: 28px;
     height: 28px;
     color: #8B5CF6;
-    filter: drop-shadow(0 2px 4px rgba(0, 102, 204, 0.3));
+    filter: drop-shadow(0 2px 4px rgba(139, 92, 246, 0.3));
   }
 `;
 
@@ -228,8 +228,8 @@ export const ContactInfo = styled.div`
 `;
 
 export const ContactCard = styled.div`
-  background: linear-gradient(135deg, rgba(0, 102, 204, 0.06) 0%, rgba(0, 82, 163, 0.02) 100%);
-  border: 1px solid rgba(0, 102, 204, 0.12);
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.06) 0%, rgba(124, 58, 237, 0.02) 100%);
+  border: 1px solid rgba(139, 92, 246, 0.12);
   border-radius: 8px;
   padding: 1.25rem 1rem;
   backdrop-filter: blur(10px);
@@ -237,8 +237,8 @@ export const ContactCard = styled.div`
 
   &:hover {
     transform: translateY(-2px);
-    border-color: rgba(0, 102, 204, 0.25);
-    box-shadow: 0 4px 16px rgba(0, 102, 204, 0.1);
+    border-color: rgba(139, 92, 246, 0.25);
+    box-shadow: 0 4px 16px rgba(139, 92, 246, 0.1);
   }
 `;
 
@@ -305,3 +305,4 @@ export const FooterBottom = styled.div`
     }
   }
 `;
+

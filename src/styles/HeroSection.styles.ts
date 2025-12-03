@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.section`
-  background: linear-gradient(135deg, #0a2540 0%, #1e3a5f 50%, #2c5282 100%);
+  background: linear-gradient(135deg, #4C1D95 0%, #5B21B6 50%, #7C3AED 100%);
   padding: 8rem 2rem;
   text-align: center;
   position: relative;
@@ -14,8 +14,8 @@ export const HeroContainer = styled.section`
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 20% 50%, rgba(0, 102, 204, 0.15) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(0, 82, 163, 0.1) 0%, transparent 50%);
+    background: radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(124, 58, 237, 0.1) 0%, transparent 50%);
     pointer-events: none;
   }
 
@@ -208,13 +208,13 @@ export const FeatureBadge = styled.div`
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(51, 136, 221, 0.15);
+  background: rgba(167, 139, 250, 0.15);
   color: #A78BFA;
   padding: 0.5rem 1rem;
   border-radius: 50px;
   font-size: 0.875rem;
   font-weight: 600;
-  border: 1px solid rgba(51, 136, 221, 0.3);
+  border: 1px solid rgba(167, 139, 250, 0.3);
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
 
@@ -223,8 +223,8 @@ export const FeatureBadge = styled.div`
   }
 
   &:hover {
-    background: rgba(51, 136, 221, 0.25);
-    border-color: rgba(51, 136, 221, 0.5);
+    background: rgba(167, 139, 250, 0.25);
+    border-color: rgba(167, 139, 250, 0.5);
     transform: translateY(-2px);
   }
 
@@ -269,7 +269,7 @@ export const CTAButtonPrimary = styled.button`
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 10px 30px rgba(0, 102, 204, 0.3);
+  box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
   letter-spacing: 0.02em;
   position: relative;
   overflow: hidden;
@@ -288,7 +288,7 @@ export const CTAButtonPrimary = styled.button`
   &:hover {
     background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(0, 102, 204, 0.5);
+    box-shadow: 0 15px 40px rgba(139, 92, 246, 0.5);
 
     &::before {
       left: 100%;
@@ -297,7 +297,7 @@ export const CTAButtonPrimary = styled.button`
 
   &:active {
     transform: translateY(-1px);
-    box-shadow: 0 8px 25px rgba(0, 102, 204, 0.4);
+    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.4);
   }
 
   @media (max-width: 768px) {
@@ -387,3 +387,4 @@ export const CTAButtonSecondary = styled.button`
     font-size: 0.85rem;
   }
 `;
+

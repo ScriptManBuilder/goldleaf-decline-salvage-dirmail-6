@@ -29,13 +29,13 @@ const StatsSection: React.FC = () => {
       title: 'Step 3',
       description: 'Our algorithm salvages a percentage of failed charges. Optimized retry sequences, alternative routing, and risk-aware logic recover up to 15% of declines.',
       value: '03',
-      background: 'linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%)'
+      background: 'linear-gradient(135deg, #9333EA 0%, #7C3AED 100%)'
     },
     {
       title: 'Step 4',
       description: 'You receive recovered revenue. Recovered funds are returned to you, minus our performance-based fee.',
       value: '04',
-      background: 'linear-gradient(135deg, #00d4aa 0%, #00bfa5 100%)'
+      background: 'linear-gradient(135deg, #A855F7 0%, #9333EA 100%)'
     }
   ];
 

@@ -6,7 +6,7 @@ export const LegalPageContainer = styled.div`
 `;
 
 export const LegalHeroSection = styled.div`
-  background: linear-gradient(135deg, #0a2540 0%, #1e3a5f 50%, #2c5282 100%);
+  background: linear-gradient(135deg, #4C1D95 0%, #5B21B6 50%, #2c5282 100%);
   padding: 6rem 2rem 4rem;
   text-align: center;
   position: relative;
@@ -19,8 +19,8 @@ export const LegalHeroSection = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 20% 50%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(0, 102, 204, 0.1) 0%, transparent 50%);
+    background: radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
     pointer-events: none;
   }
 
@@ -79,7 +79,7 @@ export const LegalSection = styled.section`
 export const LegalSectionTitle = styled.h2`
   font-size: 1.75rem;
   font-weight: 700;
-  color: #0a2540;
+  color: #4C1D95;
   margin-bottom: 1.25rem;
   padding-bottom: 0.75rem;
   border-bottom: 3px solid #8B5CF6;
@@ -146,7 +146,7 @@ export const LegalListItem = styled.li`
   }
 
   strong {
-    color: #0a2540;
+    color: #4C1D95;
     font-weight: 600;
   }
 
@@ -170,3 +170,4 @@ export const LegalListItem = styled.li`
     }
   }
 `;
+

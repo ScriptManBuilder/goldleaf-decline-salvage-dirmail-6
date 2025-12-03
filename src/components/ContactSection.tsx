@@ -81,7 +81,7 @@ const ContactSection: React.FC = () => {
             {showSuccess && (
               <div style={{ 
                 padding: '1rem', 
-                backgroundColor: '#10b981', 
+                backgroundColor: '#8B5CF6', 
                 color: 'white', 
                 borderRadius: '8px',
                 marginBottom: '1rem',

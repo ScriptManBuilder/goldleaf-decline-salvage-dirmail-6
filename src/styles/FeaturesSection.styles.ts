@@ -47,7 +47,7 @@ export const SectionTitle = styled.h2`
   font-size: 2.75rem;
   text-align: center;
   margin-bottom: 1rem;
-  color: #0a2540;
+  color: #4C1D95;
   font-weight: 700;
   letter-spacing: -0.02em;
   position: relative;
@@ -148,8 +148,8 @@ export const FeatureCard = styled.div`
 
   &:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 40px rgba(0, 102, 204, 0.15);
-    border-color: rgba(0, 102, 204, 0.2);
+    box-shadow: 0 12px 40px rgba(139, 92, 246, 0.15);
+    border-color: rgba(139, 92, 246, 0.2);
 
     &::before {
       transform: scaleX(1);
@@ -223,7 +223,7 @@ export const IconWrapper = styled.div<{ $color: string }>`
 export const FeatureTitle = styled.h3`
   font-size: 1.4rem;
   margin-bottom: 1rem;
-  color: #0a2540;
+  color: #4C1D95;
   font-weight: 600;
   letter-spacing: -0.01em;
 `;
@@ -244,7 +244,7 @@ export const CTAButton = styled.button`
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 10px 30px rgba(0, 102, 204, 0.3);
+  box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
   margin: 3rem auto 0;
   display: block;
   letter-spacing: 0.02em;
@@ -252,12 +252,12 @@ export const CTAButton = styled.button`
   &:hover {
     background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(0, 102, 204, 0.5);
+    box-shadow: 0 15px 40px rgba(139, 92, 246, 0.5);
   }
 
   &:active {
     transform: translateY(-1px);
-    box-shadow: 0 8px 25px rgba(0, 102, 204, 0.4);
+    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.4);
   }
 
   @media (max-width: 768px) {
@@ -274,3 +274,4 @@ export const CTAButton = styled.button`
     max-width: 350px;
   }
 `;
+

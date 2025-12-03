@@ -341,7 +341,7 @@ const ChatWidget: React.FC = () => {
                       justifyContent: 'center',
                       flexShrink: 0,
                       marginTop: '0.25rem',
-                      boxShadow: '0 2px 8px rgba(0, 102, 204, 0.3)'
+                      boxShadow: '0 2px 8px rgba(139, 92, 246, 0.3)'
                     }}>
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
                         <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
@@ -353,13 +353,13 @@ const ChatWidget: React.FC = () => {
                       width: '32px', 
                       height: '32px', 
                       borderRadius: '50%',
-                      background: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
+                      background: 'linear-gradient(135deg, #9333EA 0%, #7C3AED 100%)',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
                       flexShrink: 0,
                       marginTop: '0.25rem',
-                      boxShadow: '0 2px 8px rgba(16, 185, 129, 0.3)'
+                      boxShadow: '0 2px 8px rgba(139, 92, 246, 0.3)'
                     }}>
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
                         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
@@ -377,7 +377,7 @@ const ChatWidget: React.FC = () => {
                       lineHeight: '1.5',
                       wordWrap: 'break-word',
                       boxShadow: msg.sender === 'user' 
-                        ? '0 2px 8px rgba(0, 102, 204, 0.2)' 
+                        ? '0 2px 8px rgba(139, 92, 246, 0.2)' 
                         : '0 2px 8px rgba(0, 0, 0, 0.05)'
                     }}
                   >
@@ -404,7 +404,7 @@ const ChatWidget: React.FC = () => {
                     justifyContent: 'center',
                     flexShrink: 0,
                     marginTop: '0.25rem',
-                    boxShadow: '0 2px 8px rgba(0, 102, 204, 0.3)'
+                    boxShadow: '0 2px 8px rgba(139, 92, 246, 0.3)'
                   }}>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
                       <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>

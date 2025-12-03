@@ -74,7 +74,7 @@ export const BenefitCard = styled.div`
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(0, 102, 204, 0.15);
+    box-shadow: 0 8px 24px rgba(139, 92, 246, 0.15);
     border-color: #8B5CF6;
   }
 
@@ -120,3 +120,4 @@ export const BenefitDescription = styled.p`
     font-size: 0.9375rem;
   }
 `;
+

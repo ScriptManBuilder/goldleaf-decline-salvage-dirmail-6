@@ -13,10 +13,10 @@ const slideIn = keyframes`
 
 const pulse = keyframes`
   0%, 100% {
-    box-shadow: 0 0 0 0 rgba(0, 102, 204, 0.7);
+    box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.7);
   }
   50% {
-    box-shadow: 0 0 0 10px rgba(0, 102, 204, 0);
+    box-shadow: 0 0 0 10px rgba(139, 92, 246, 0);
   }
 `;
 
@@ -48,7 +48,7 @@ export const ChatButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 20px rgba(0, 102, 204, 0.4);
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
   transition: all 0.3s ease;
   animation: ${pulse} 2s infinite;
 
@@ -60,7 +60,7 @@ export const ChatButton = styled.button`
 
   &:hover {
     transform: scale(1.1);
-    box-shadow: 0 6px 30px rgba(0, 102, 204, 0.5);
+    box-shadow: 0 6px 30px rgba(139, 92, 246, 0.5);
   }
 
   @media (max-width: 768px) {
@@ -233,7 +233,7 @@ export const FormInput = styled.input`
   &:focus {
     outline: none;
     border-color: #8B5CF6;
-    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+    box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
   }
 
   &::placeholder {
@@ -260,7 +260,7 @@ export const FormTextarea = styled.textarea`
   &:focus {
     outline: none;
     border-color: #8B5CF6;
-    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+    box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
   }
 
   &::placeholder {
@@ -294,7 +294,7 @@ export const SubmitButton = styled.button`
 
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
   }
 
   &:active {
@@ -398,3 +398,4 @@ export const AlertMessage = styled.p`
     font-size: 0.9rem;
   }
 `;
+

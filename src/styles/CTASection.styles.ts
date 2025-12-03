@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const CTAContainer = styled.section`
   padding: 6rem 2rem;
-  background: linear-gradient(135deg, #f0f7ff 0%, #e3f2fd 100%);
+  background: linear-gradient(135deg, #F3E8FF 0%, #EDE9FE 100%);
   position: relative;
   overflow: hidden;
 
@@ -13,8 +13,8 @@ export const CTAContainer = styled.section`
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 30% 50%, rgba(0, 102, 204, 0.08) 0%, transparent 60%),
-                radial-gradient(circle at 70% 50%, rgba(51, 136, 221, 0.06) 0%, transparent 60%);
+    background: radial-gradient(circle at 30% 50%, rgba(139, 92, 246, 0.08) 0%, transparent 60%),
+                radial-gradient(circle at 70% 50%, rgba(167, 139, 250, 0.06) 0%, transparent 60%);
     pointer-events: none;
   }
 
@@ -49,7 +49,7 @@ export const CTATitle = styled.h2`
   font-size: 2.75rem;
   margin-bottom: 1.5rem;
   line-height: 1.3;
-  color: #0a2540;
+  color: #4C1D95;
   font-weight: 700;
   letter-spacing: -0.02em;
   position: relative;
@@ -112,7 +112,7 @@ export const CTASectionButton = styled.button`
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 20px rgba(0, 102, 204, 0.3);
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.3);
   position: relative;
   overflow: hidden;
 
@@ -129,7 +129,7 @@ export const CTASectionButton = styled.button`
 
   &:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(0, 102, 204, 0.4);
+    box-shadow: 0 8px 30px rgba(139, 92, 246, 0.4);
 
     &::before {
       left: 100%;
@@ -172,13 +172,13 @@ export const CTAFeatureItem = styled.div`
   padding: 1.75rem;
   border-radius: 12px;
   background: white;
-  border: 1px solid rgba(0, 102, 204, 0.1);
+  border: 1px solid rgba(139, 92, 246, 0.1);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   transition: all 0.3s ease;
 
   &:hover {
-    box-shadow: 0 8px 24px rgba(0, 102, 204, 0.15);
-    border-color: rgba(0, 102, 204, 0.2);
+    box-shadow: 0 8px 24px rgba(139, 92, 246, 0.15);
+    border-color: rgba(139, 92, 246, 0.2);
     transform: translateY(-4px);
   }
 `;
@@ -192,7 +192,7 @@ export const CTAIconWrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.25);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.25);
   transition: all 0.3s ease;
 
   svg {
@@ -203,7 +203,7 @@ export const CTAIconWrapper = styled.div`
 
   ${CTAFeatureItem}:hover & {
     transform: scale(1.1) rotate(-5deg);
-    box-shadow: 0 6px 16px rgba(0, 102, 204, 0.35);
+    box-shadow: 0 6px 16px rgba(139, 92, 246, 0.35);
   }
 `;
 
@@ -214,7 +214,7 @@ export const CTAFeatureContent = styled.div`
 export const CTAFeatureTitle = styled.h3`
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: #0a2540;
+  color: #4C1D95;
   font-weight: 600;
   letter-spacing: -0.01em;
 `;
@@ -224,3 +224,4 @@ export const CTAFeatureDescription = styled.p`
   line-height: 1.6;
   font-size: 0.95rem;
 `;
+

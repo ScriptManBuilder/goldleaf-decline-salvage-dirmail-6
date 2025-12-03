@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StatsContainer = styled.section`
   padding: 6rem 2rem;
-  background: linear-gradient(135deg, #0a2540 0%, #1e3a5f 50%, #0d1821 100%);
+  background: linear-gradient(135deg, #4C1D95 0%, #5B21B6 50%, #3B0764 100%);
   position: relative;
   overflow: hidden;
 
@@ -13,8 +13,8 @@ export const StatsContainer = styled.section`
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 20% 50%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 50%, rgba(51, 136, 221, 0.08) 0%, transparent 50%);
+    background: radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(167, 139, 250, 0.08) 0%, transparent 50%);
     pointer-events: none;
   }
 
@@ -152,7 +152,7 @@ export const StatCard = styled.div<{ $background: string }>`
 
   &:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 48px rgba(0, 102, 204, 0.3);
+    box-shadow: 0 12px 48px rgba(139, 92, 246, 0.3);
     border-color: rgba(255, 255, 255, 0.2);
 
     &::before {
@@ -253,3 +253,4 @@ export const StatValue = styled.div`
     font-size: 1.85rem;
   }
 `;
+

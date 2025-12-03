@@ -51,7 +51,7 @@ export const Logo = styled.div`
   gap: 0.75rem;
   font-size: 1.35rem;
   font-weight: 700;
-  color: #0a2540;
+  color: #4C1D95;
   letter-spacing: -0.02em;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -135,7 +135,7 @@ export const NavLink = styled.a`
   }
 
   &:hover {
-    color: #0a2540;
+    color: #4C1D95;
 
     &::after {
       width: 100%;
@@ -169,13 +169,13 @@ export const Button = styled.button<{ $primary?: boolean }>`
   background: ${props => props.$primary ? 'linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%)' : 'transparent'};
   color: ${props => props.$primary ? 'white' : '#5a6c7d'};
   border: ${props => props.$primary ? 'none' : '1.5px solid #e3e8ef'};
-  box-shadow: ${props => props.$primary ? '0 2px 8px rgba(0, 102, 204, 0.15)' : 'none'};
+  box-shadow: ${props => props.$primary ? '0 2px 8px rgba(139, 92, 246, 0.15)' : 'none'};
 
   &:hover {
     transform: translateY(-1px);
-    box-shadow: ${props => props.$primary ? '0 4px 16px rgba(0, 102, 204, 0.25)' : '0 2px 8px rgba(0, 0, 0, 0.08)'};
+    box-shadow: ${props => props.$primary ? '0 4px 16px rgba(139, 92, 246, 0.25)' : '0 2px 8px rgba(0, 0, 0, 0.08)'};
     background: ${props => props.$primary ? 'linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%)' : '#f8f9fb'};
-    color: ${props => props.$primary ? 'white' : '#0a2540'};
+    color: ${props => props.$primary ? 'white' : '#4C1D95'};
     border-color: ${props => props.$primary ? 'transparent' : '#d1d9e3'};
   }
 
@@ -188,3 +188,4 @@ export const Button = styled.button<{ $primary?: boolean }>`
     font-size: 0.85rem;
   }
 `;
+

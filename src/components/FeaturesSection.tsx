@@ -49,7 +49,7 @@ const FeaturesSection: React.FC = () => {
       ),
       title: 'Secure Automated Recovery',
       description: 'PCI-compliant infrastructure handles all transaction data. No manual intervention required—your failed payments are automatically queued and reprocessed.',
-      color: '#00d4aa'
+      color: '#C084FC'
     },
     {
       icon: (
@@ -59,7 +59,7 @@ const FeaturesSection: React.FC = () => {
       ),
       title: 'Real-Time Reporting',
       description: 'Live dashboards show decline rates, recovery performance, revenue impact, and success metrics. Track ROI and identify trends across your payment flow.',
-      color: '#ff6b6b'
+      color: '#9333EA'
     },
     {
       icon: (
@@ -79,7 +79,7 @@ const FeaturesSection: React.FC = () => {
       ),
       title: 'Flexible Recovery Models',
       description: 'Choose between performance-based pricing or flat-rate models. Scale recovery efforts based on transaction volume and risk tolerance with no upfront costs.',
-      color: '#ff9500'
+      color: '#A855F7'
     }
     
   ];

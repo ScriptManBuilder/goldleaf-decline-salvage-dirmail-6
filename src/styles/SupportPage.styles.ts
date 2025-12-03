@@ -278,7 +278,7 @@ export const HelpTitle = styled.h2`
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 4rem;
-  color: #0a2540;
+  color: #4C1D95;
   font-weight: 700;
   letter-spacing: -0.02em;
 
@@ -319,8 +319,8 @@ export const HelpCard = styled.div`
   transition: all 0.3s ease;
 
   &:hover {
-    box-shadow: 0 8px 24px rgba(0, 102, 204, 0.12);
-    border-color: rgba(0, 102, 204, 0.2);
+    box-shadow: 0 8px 24px rgba(139, 92, 246, 0.12);
+    border-color: rgba(139, 92, 246, 0.2);
     transform: translateY(-4px);
   }
 
@@ -362,7 +362,7 @@ export const HelpIcon = styled.div`
 
 export const HelpCardTitle = styled.h3`
   font-size: 1.3rem;
-  color: #0a2540;
+  color: #4C1D95;
   margin-bottom: 0.75rem;
   font-weight: 600;
 
@@ -398,7 +398,7 @@ export const FAQSection = styled.section`
 
 export const FAQSectionTitle = styled.h2`
   font-size: 2.5rem;
-  color: #0a2540;
+  color: #4C1D95;
   text-align: center;
   margin-bottom: 1rem;
   font-weight: 700;
@@ -445,7 +445,7 @@ export const FAQItem = styled.div`
 
   &:hover {
     border-color: #8B5CF6;
-    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.1);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.1);
   }
 `;
 
@@ -462,7 +462,7 @@ export const FAQQuestion = styled.button<{ $isOpen: boolean }>`
   gap: 1rem;
   font-size: 1.1rem;
   font-weight: 600;
-  color: #0a2540;
+  color: #4C1D95;
   transition: background 0.3s ease;
 
   &:hover {
@@ -535,3 +535,4 @@ export const FAQIcon = styled.div<{ $isOpen: boolean }>`
     height: 20px;
   }
 `;
+

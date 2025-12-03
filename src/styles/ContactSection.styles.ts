@@ -26,7 +26,7 @@ export const ContactTitle = styled.h2`
   font-size: 2.75rem;
   text-align: center;
   margin-bottom: 1rem;
-  color: #0a2540;
+  color: #4C1D95;
   font-weight: 700;
   letter-spacing: -0.02em;
 
@@ -82,7 +82,7 @@ export const ContactForm = styled.form`
 
   h3 {
     font-size: 1.5rem;
-    color: #0a2540;
+    color: #4C1D95;
     margin-bottom: 0.5rem;
     font-weight: 600;
   }
@@ -115,7 +115,7 @@ export const FormGroup = styled.div`
 export const FormLabel = styled.label`
   display: block;
   margin-bottom: 0.5rem;
-  color: #0a2540;
+  color: #4C1D95;
   font-weight: 500;
   font-size: 0.95rem;
 `;
@@ -128,12 +128,12 @@ export const FormInput = styled.input`
   font-size: 1rem;
   transition: all 0.3s ease;
   background: white;
-  color: #0a2540;
+  color: #4C1D95;
 
   &:focus {
     outline: none;
     border-color: #8B5CF6;
-    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+    box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
   }
 
   &::placeholder {
@@ -156,12 +156,12 @@ export const FormTextarea = styled.textarea`
   resize: vertical;
   transition: all 0.3s ease;
   background: white;
-  color: #0a2540;
+  color: #4C1D95;
 
   &:focus {
     outline: none;
     border-color: #8B5CF6;
-    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+    box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
   }
 
   &::placeholder {
@@ -185,7 +185,7 @@ export const SubmitButton = styled.button`
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
   position: relative;
   overflow: hidden;
 
@@ -202,7 +202,7 @@ export const SubmitButton = styled.button`
 
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 102, 204, 0.4);
+    box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4);
 
     &::before {
       left: 100%;
@@ -223,13 +223,13 @@ export const InfoCard = styled.div`
   background: white;
   padding: 1.75rem;
   border-radius: 12px;
-  border: 1px solid rgba(0, 102, 204, 0.1);
+  border: 1px solid rgba(139, 92, 246, 0.1);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   transition: all 0.3s ease;
 
   &:hover {
-    box-shadow: 0 4px 16px rgba(0, 102, 204, 0.12);
-    border-color: rgba(0, 102, 204, 0.2);
+    box-shadow: 0 4px 16px rgba(139, 92, 246, 0.12);
+    border-color: rgba(139, 92, 246, 0.2);
     transform: translateY(-2px);
   }
 
@@ -274,3 +274,4 @@ export const InfoLink = styled.a`
     text-decoration: underline;
   }
 `;
+

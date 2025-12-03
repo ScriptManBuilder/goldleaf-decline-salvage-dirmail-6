@@ -26,7 +26,7 @@ export const FAQTitle = styled.h2`
   font-size: 2.75rem;
   text-align: center;
   margin-bottom: 1rem;
-  color: #0a2540;
+  color: #4C1D95;
   font-weight: 700;
   letter-spacing: -0.02em;
   position: relative;
@@ -81,15 +81,15 @@ export const FAQList = styled.div`
 
 export const FAQItem = styled.div<{ $isOpen: boolean }>`
   background: white;
-  border: 1px solid ${props => props.$isOpen ? 'rgba(0, 102, 204, 0.2)' : 'rgba(0, 0, 0, 0.08)'};
+  border: 1px solid ${props => props.$isOpen ? 'rgba(139, 92, 246, 0.2)' : 'rgba(0, 0, 0, 0.08)'};
   border-radius: 12px;
   overflow: hidden;
   transition: all 0.3s ease;
-  box-shadow: ${props => props.$isOpen ? '0 4px 16px rgba(0, 102, 204, 0.1)' : '0 2px 8px rgba(0, 0, 0, 0.04)'};
+  box-shadow: ${props => props.$isOpen ? '0 4px 16px rgba(139, 92, 246, 0.1)' : '0 2px 8px rgba(0, 0, 0, 0.04)'};
 
   &:hover {
-    border-color: rgba(0, 102, 204, 0.15);
-    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.08);
+    border-color: rgba(139, 92, 246, 0.15);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.08);
   }
 
   @media (max-width: 425px) {
@@ -105,7 +105,7 @@ export const FAQQuestion = styled.button`
   text-align: left;
   font-size: 1.15rem;
   font-weight: 600;
-  color: #0a2540;
+  color: #4C1D95;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -174,3 +174,4 @@ export const FAQAnswer = styled.div<{ $isOpen: boolean }>`
     font-size: 0.9rem;
   }
 `;
+
