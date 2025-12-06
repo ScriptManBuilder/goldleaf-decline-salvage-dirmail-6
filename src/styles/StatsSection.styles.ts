@@ -127,6 +127,8 @@ export const StatCard = styled.div<{ $background: string }>`
   position: relative;
   overflow: hidden;
   backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
 
   &::before {
     content: '';
@@ -212,10 +214,14 @@ export const StatDescription = styled.p`
 export const StatValue = styled.div`
   font-size: 3.5rem;
   font-weight: 700;
-  margin-top: 1rem;
-  letter-spacing: -0.02em;
+  margin-top: auto;
+  letter-spacing: 0;
   position: relative;
-  display: inline-block;
+  display: block;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+  font-family: ui-monospace, 'Courier New', monospace;
+  line-height: 1;
   
   &::after {
     content: '';
